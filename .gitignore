@@ -1,0 +1,15 @@
+# env files
+.env
+.env.local
+.env.*.local
+
+# node
+node_modules/
+npm-debug.log*
+
+# expo
+mobile/.expo/
+mobile/dist/
+
+# build
+server/dist/

@@ -1,0 +1,37 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx create-expo-app@latest mobile --template default@sdk-55)",
+      "Bash(npm init:*)",
+      "Bash(npm install:*)",
+      "Bash(npx tsc:*)",
+      "Bash(npx expo:*)",
+      "Bash(ls \"d:/Documents/Claude/Meal Planning App/mobile/src/app/\\(app\\)/\")",
+      "Bash(cp -r \"d:/Documents/Claude/Meal Planning App/mobile/src/app/\\(app\\)/plan\" \"d:/Documents/Claude/Meal Planning App/mobile/src/app/\\(app\\)/\\(modals\\)/plan\")",
+      "Bash(cp -r \"d:/Documents/Claude/Meal Planning App/mobile/src/app/\\(app\\)/feedback\" \"d:/Documents/Claude/Meal Planning App/mobile/src/app/\\(app\\)/\\(modals\\)/feedback\")",
+      "Bash(ls \"d:/Documents/Claude/Meal Planning App/mobile/src/app/\\(app\\)/\\(modals\\)/\")",
+      "Bash(sed -i 's|/\\(app\\)/plan/|/\\(app\\)/\\(modals\\)/plan/|g' \"d:/Documents/Claude/Meal Planning App/mobile/src/app/\\(app\\)/\\(modals\\)/plan/[id].tsx\" \"d:/Documents/Claude/Meal Planning App/mobile/src/app/\\(app\\)/generate.tsx\" \"d:/Documents/Claude/Meal Planning App/mobile/src/app/\\(app\\)/index.tsx\" \"d:/Documents/Claude/Meal Planning App/mobile/src/app/\\(app\\)/plans.tsx\")",
+      "Bash(sed -i 's|/\\(app\\)/plan`|/\\(app\\)/\\(modals\\)/plan/`|g; s|/\\(app\\)/preferences|/\\(app\\)/\\(modals\\)/preferences|g; s|/\\(app\\)/feedback/|/\\(app\\)/\\(modals\\)/feedback/|g' \"d:/Documents/Claude/Meal Planning App/mobile/src/app/\\(app\\)/index.tsx\")",
+      "Bash(cp \"d:/Documents/Claude/Meal Planning App/mobile/src/app/\\(app\\)/\\(modals\\)/plan/[id].tsx\" \"d:/Documents/Claude/Meal Planning App/mobile/src/app/screens/plan/[id].tsx\")",
+      "Bash(cp \"d:/Documents/Claude/Meal Planning App/mobile/src/app/\\(app\\)/\\(modals\\)/feedback/[mealId].tsx\" \"d:/Documents/Claude/Meal Planning App/mobile/src/app/screens/feedback/[mealId].tsx\")",
+      "Bash(mkdir -p \"d:/Documents/Claude/Meal Planning App/mobile/src/app/screens/plan/[id]\")",
+      "Bash(cp \"d:/Documents/Claude/Meal Planning App/mobile/src/app/\\(app\\)/\\(modals\\)/plan/[id]/grocery.tsx\" \"d:/Documents/Claude/Meal Planning App/mobile/src/app/screens/plan/[id]/grocery.tsx\")",
+      "Bash(find \"d:/Documents/Claude/Meal Planning App/mobile/src/app/\\(app\\)\" -type f -name \"*.tsx\")",
+      "Bash(find \"d:/Documents/Claude/Meal Planning App/mobile/src/app/\\(app\\)\" -type d)",
+      "Bash(mkdir -p \"d:/Documents/Claude/Meal Planning App/mobile/src/app/\\(screens\\)/plan/[id]\" \"d:/Documents/Claude/Meal Planning App/mobile/src/app/\\(screens\\)/feedback\")",
+      "Bash(cp \"d:/Documents/Claude/Meal Planning App/mobile/src/app/screens/plan/[id].tsx\" \"d:/Documents/Claude/Meal Planning App/mobile/src/app/\\(screens\\)/plan/[id].tsx\")",
+      "Bash(cp \"d:/Documents/Claude/Meal Planning App/mobile/src/app/screens/plan/[id]/grocery.tsx\" \"d:/Documents/Claude/Meal Planning App/mobile/src/app/\\(screens\\)/plan/[id]/grocery.tsx\")",
+      "Bash(cp \"d:/Documents/Claude/Meal Planning App/mobile/src/app/screens/feedback/[mealId].tsx\" \"d:/Documents/Claude/Meal Planning App/mobile/src/app/\\(screens\\)/feedback/[mealId].tsx\")",
+      "Bash(ls \"d:/Documents/Claude/Meal Planning App/mobile/src/app/\\(screens\\)/\")",
+      "Bash(ls \"d:/Documents/Claude/Meal Planning App/mobile/src/app/\\(screens\\)/plan/\")",
+      "Bash(ls \"d:/Documents/Claude/Meal Planning App/mobile/src/app/\\(screens\\)/plan/[id]/\")",
+      "Bash(ls \"d:/Documents/Claude/Meal Planning App/mobile/src/app/\\(screens\\)/plan/feedback/\")",
+      "Bash(ls \"d:/Documents/Claude/Meal Planning App/mobile/src/app/\\(screens\\)/feedback/\")",
+      "Bash(ls -la \"d:/Documents/Claude/Meal Planning App/mobile/src/app/\\(screens\\)/plan/\")"
+    ],
+    "additionalDirectories": [
+      "d:\\Documents\\Claude\\Meal Planning App\\mobile\\src\\app\\(app)\\(modals)\\plan",
+      "d:\\Documents\\Claude\\Meal Planning App\\mobile\\src\\app\\screens\\plan"
+    ]
+  }
+}

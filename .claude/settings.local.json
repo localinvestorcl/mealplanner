@@ -27,7 +27,14 @@
       "Bash(ls \"d:/Documents/Claude/Meal Planning App/mobile/src/app/\\(screens\\)/plan/[id]/\")",
       "Bash(ls \"d:/Documents/Claude/Meal Planning App/mobile/src/app/\\(screens\\)/plan/feedback/\")",
       "Bash(ls \"d:/Documents/Claude/Meal Planning App/mobile/src/app/\\(screens\\)/feedback/\")",
-      "Bash(ls -la \"d:/Documents/Claude/Meal Planning App/mobile/src/app/\\(screens\\)/plan/\")"
+      "Bash(ls -la \"d:/Documents/Claude/Meal Planning App/mobile/src/app/\\(screens\\)/plan/\")",
+      "Bash(curl -s \"https://mealplanner-production-647c.up.railway.app/health\")",
+      "Bash(npx eas-cli@latest --version)",
+      "Bash(npx eas-cli@latest build:configure)",
+      "Bash(npx eas-cli@latest project:info)",
+      "Bash(npx eas-cli@latest init --non-interactive)",
+      "Bash(npx eas-cli@latest init --non-interactive --force)",
+      "Bash(npx eas-cli@latest build:view ff7cb1b1-ce9c-4f81-aad6-fafdce8efa99)"
     ],
     "additionalDirectories": [
       "d:\\Documents\\Claude\\Meal Planning App\\mobile\\src\\app\\(app)\\(modals)\\plan",

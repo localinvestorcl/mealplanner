@@ -143,13 +143,13 @@
 
 | # | Task | Status | Notes |
 |---|---|---|---|
-| 7.1 | Deploy Express server to Railway | 🔄 | `server/railway.json` configured — follow deployment steps below |
-| 7.2 | Update `app.json` bundle IDs | ⬜ | `com.mealplanner.app` — change to yours |
-| 7.3 | EAS build configuration | ⬜ | `eas build:configure` |
-| 7.4 | TestFlight build (iOS) | ⬜ | Requires Apple Developer account ($99/yr) |
-| 7.5 | Internal testing build (Android) | ⬜ | Requires Google Play account ($25 one-time) |
-| 7.6 | Privacy policy page | ⬜ | Required by both stores |
-| 7.7 | Install on family phones natively | ⬜ | Via TestFlight / Play internal track |
+| 7.1 | Deploy Express server to Railway | ✅ | `https://mealplanner-production-647c.up.railway.app` — mobile `EXPO_PUBLIC_API_URL` updated |
+| 7.2 | Update `app.json` bundle IDs | ✅ | Android: `com.familymealplanner.app` — iOS deferred |
+| 7.3 | EAS build configuration | ✅ | `mobile/eas.json` — preview (APK) + production (AAB) profiles configured |
+| 7.4 | TestFlight build (iOS) | ⬜ | Deferred — Apple Developer account ($99/yr) not yet purchased |
+| 7.5 | Internal testing build (Android) | ✅ | APK via EAS preview build — sideloaded successfully |
+| 7.6 | Privacy policy page | ✅ | Live at https://localinvestorcl.github.io/mealplanner/privacy-policy.html |
+| 7.7 | Install on family phones natively | ✅ | Installed via EAS build link |
 
 > 👥 Use `launch-team` agent team: runs iOS build + Android build in parallel
 > ⚡ Use `/eas-build` skill
@@ -162,8 +162,8 @@
 | # | Task | Status | Notes |
 |---|---|---|---|
 | 8.1 | App Store screenshots (iOS) | ⬜ | 6.5" and 5.5" sizes required |
-| 8.2 | Play Store screenshots (Android) | ⬜ | Phone + tablet sizes |
-| 8.3 | App description and keywords | ⬜ | Write for discoverability |
+| 8.2 | Play Store screenshots (Android) | ✅ | Saved in `docs/screenshots/` |
+| 8.3 | App description and keywords | ✅ | `docs/store-listing.md` — can be refined before submission |
 | 8.4 | Submit to Apple App Store | ⬜ | Review: 1–3 days |
 | 8.5 | Submit to Google Play Store | ⬜ | Review: 1–7 days |
 | 8.6 | Monitor first-launch crash reports | ⬜ | Expo EAS Insights |
